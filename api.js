@@ -6,10 +6,10 @@ var app = express();
 app.use(express.json());
 
 var conexion = mysql.createConnection({
-    host: "162.241.62.48",
-    user: "jesusar1_apitest",
-    password: "Gatito2005",
-    database: "jesusar1_backend"
+    host: "host",
+    user: "user",
+    password: "password",
+    database: "database"
 });
 
 conexion.connect(function(error){
